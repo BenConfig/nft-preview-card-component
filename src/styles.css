@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#equilibrium-link { position: relative; }
+
+#equilibrium-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('../public/images/icon-view.svg') no-repeat center
+                hsl(178 100% 50% / .5);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+#equilibrium-link:hover::after { opacity: 1; }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Frontend Mentor | NFT Preview Card Component</title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body class="grid place-content-center min-h-screen font-primary font-light py-15 px-6 bg-body">
+
+    <main class="grid max-w-card p-6 rounded-2xl text-primary bg-card">
+
+      <h1 class="text-h1 font-semibold tracking-wide mb-4 text-white leading-tight">
+        <a class="hover:text-accent transition ease-in-out duration-200" href="#">Equilibrium #3429</a>
+      </h1>
+      
+      <p class="xs:text-lg leading-snug mb-6">Our Equilibrium collection promotes balance and calm.</p>
+      
+      <a class="-order-1 rounded-lg overflow-hidden mb-6" id="equilibrium-link" href="#" aria-label="Equilibrium collection">
+        <img src="./images/image-equilibrium.jpg" alt="" aria-hidden="true">
+      </a>
+      
+      <div class="flex justify-between gap-2 leading-tight mb-6">
+        <p class="flex items-center gap-2">
+          <img src="./images/icon-ethereum.svg" alt="" aria-hidden="true">
+          <span class="text-accent tracking-wide">0.041 ETH</span>
+        </p>
+
+        <p class="flex items-center gap-2">
+          <img src="./images/icon-clock.svg" alt="" aria-hidden="true">
+          <span>3 days left</span>
+        </p>
+      </div>
+      
+      <p class="flex flex-wrap items-center gap-1 pt-6 pb-2 border-t border-line">
+        <img class="border-white border rounded-full w-8 mr-3" src="./images/image-avatar.png" alt="" aria-hidden="true">
+        <span class="whitespace-nowrap">Creation of </span>
+        <a class="text-white whitespace-nowrap hover:text-accent transition ease-in-out duration-200 cursor-pointer">Jules Wyvern</a>
+      </p>
+
+    </main>
+  
+  </body>
+
+</html>
