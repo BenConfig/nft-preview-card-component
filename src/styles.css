@@ -9,6 +9,7 @@
     content: '';
     position: absolute;
     inset: 0;
+    border-radius: inherit;
     background: url('../docs/images/icon-view.svg') no-repeat center
                 hsl(178 100% 50% / .5);
     opacity: 0;
