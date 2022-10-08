@@ -755,7 +755,7 @@ video {
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  background: url('../docs/images/icon-view.svg') no-repeat center
+  background: url('./images/icon-view.svg') no-repeat center
                 hsl(178 100% 50% / .5);
   opacity: 0;
   transition: opacity 200ms ease-in-out;
