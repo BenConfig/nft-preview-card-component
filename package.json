@@ -5,8 +5,8 @@
   "description": "![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build-css",
-    "deploy": "gh-pages -d build-css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
   },
   "keywords": [],
